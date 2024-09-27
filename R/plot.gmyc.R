@@ -1,4 +1,4 @@
-`plot_gmyc` <-
+`plot.gmyc` <-
 function(x, ask=TRUE, second.peak=FALSE,file.name=NA,height=96, ...) {
 	
 plotCluster <-
