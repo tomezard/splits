@@ -60,8 +60,10 @@ Pons, J, Barraclough, TG, Gomez-Zurita, J, Cardoso, A, Duran, DP, Hazell, S, Kam
 
 \examples{
 data(test.tr)
+ultra_tree <- force.ultrametric(test.tr)
+
 #*#* run the single threshold model
-test1 <- gmyc(test.tr, method="single", interval=c(0, 10))
+test1 <- gmyc(ultra_tree, method="single", interval=c(0, 10))
 summary(test1)  ##show summary results
 
 #*#* plot results
@@ -69,11 +71,11 @@ plot_gmyc(test1)
 
 #*#* un-comment to run the multiple threshold model
 #*#* see warning and suggestion anove
-test2 <- gmyc(test.tr, method="multiple", interval= c(0, 10))
+test2 <- gmyc(ultra_tree, method="multiple", interval= c(0, 10))
 summary(test2)
 plot_gmyc(test2)
 
 #*#* compare multiple vs single threshold models, former a significant improvement here
-compare(test1,test2) 
+compare(test1, test2) 
 }
 
