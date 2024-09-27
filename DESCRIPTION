@@ -1,12 +1,11 @@
 Package: splits
 Type: Package
 Title: SPecies' LImits by Threshold Statistics
-Version: 1.0-14
-Date: 2009-06-07
+Version: 1.1
+Date: 2024-09-27
 Author: Thomas Ezard, Tomochika Fujisawa and Tim Barraclough
 Maintainer: Thomas Ezard <T.Ezard@soton.ac.uk>
 Description: "splits" contains tools for delimiting species and automated taxonomy at multiple levels of biological organization (eg. DNA barcoding, morphometrics), both top-down (merging phylogenetic and phylogeographic methods) and bottom-up (single samples into >1 groups).
 License: GPL (>= 2)
-Depends: R (>= 3.0.0), ape, MASS, paran
+Depends: R (>= 4.0.0), ape, MASS, paran
 LazyLoad: yes
-Packaged: 2014-05-15 09:23:53 UTC; te1e12
