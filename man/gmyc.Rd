@@ -54,7 +54,7 @@ Pons, J, Barraclough, TG, Gomez-Zurita, J, Cardoso, A, Duran, DP, Hazell, S, Kam
 
 \author{Tomochika Fujisawa \email{tomochika.fujisawa05@imperial.ac.uk} and Tim Barraclough \email{t.barraclough@imperial.ac.uk}}
 
-\section{Warning }{The multiple threshold version works, but is very experimental (highly sensitive to initial conditions) and takes a long time to run. Tomochika's website https://tmfujis.wordpress.com/software/ directs users to the web interface maintained by Jiajie Zhang at http://species.h-its.org/gmyc/.}
+\section{Warning }{The multiple threshold version works, but is very experimental (highly sensitive to initial conditions) and takes a long time to run. Tomochika's website https://tmfujis.wordpress.com/software/ directs users to the web interface maintained by Jiajie Zhang at http://species.h-its.org/gmyc/ and to his new \href{Bitbucket repositories}{https://bitbucket.org/tfujisawa/tr2-delimitation-python3/src/master/}.}
 
 \seealso{\code{\link{spec.list}}, \code{\link{test.tr}}}
 
