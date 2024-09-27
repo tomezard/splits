@@ -5,4 +5,4 @@
 
 I (finally) tweaked plot.gmyc() to be plot_gmyc() to avoid S3/S4 issues.
 
-See \href{Tomochika's webpage}{https://tmfujis.wordpress.com/software/} for other, more recent implementations on Web interfaces and Python.
+See [Tomochika's webpage](https://tmfujis.wordpress.com/software/) for other, more recent implementations on Web interfaces and Python.
