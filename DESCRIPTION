@@ -7,5 +7,5 @@ Author: Thomas Ezard, Tomochika Fujisawa and Tim Barraclough
 Maintainer: Thomas Ezard <T.Ezard@soton.ac.uk>
 Description: "splits" contains tools for delimiting species and automated taxonomy at multiple levels of biological organization (eg. DNA barcoding, morphometrics), both top-down (merging phylogenetic and phylogeographic methods) and bottom-up (single samples into >1 groups).
 License: GPL (>= 2)
-Depends: R (>= 4.0.1), ape, MASS, paran
+Depends: R (>= 4.0.1), ape, MASS, paran, phytools
 LazyLoad: yes
