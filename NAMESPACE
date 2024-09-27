@@ -8,5 +8,6 @@ exportPattern(".")
 import(
   ape,
   MASS,
-  paran
+  paran,
+  phytools
 )
